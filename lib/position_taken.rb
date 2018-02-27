@@ -3,7 +3,7 @@ def position_taken?(board, index)
   if board[index] == "  " || " "
     return false
   end
-  else board[index] == "X" || "0"
+else board[index] == "X" || "O"
     return true
   end
 end
